@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    margin: 50px 0px 30px 0px;
+    text-align: center;
+    font-size: 40px;
+}
+header p{
+    font-size: 20px;
+}
+.pads{
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+}
+.pads > div{
+    width: 100px;
+    height: 100px;
+    flex:1;
+
+}
+.pads1{
+    width: 100%;
+    background-color: rgb(202, 107, 107);
+}
+.pads2{
+    background: rgb(112, 3, 3);
+}
+.pads3{
+    background: rgb(141, 240, 128);
+}
+.pads4{
+    background: rgb(80, 15, 77);
+}
+.pads5{
+    background: rgb(168, 189, 54);
+}
+.pads6{
+    background: rgb(29, 148, 184);
+}
+
+.visual > div{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 0;
+    z-index: -1;
+}
+
+@keyframes jump{
+    0%{
+        bottom: 0%;
+        left: 20%;
+    }
+    50%{
+        bottom: 50%;
+        left: 50%;
+    }
+    100%{
+        bottom: 0%;
+        left: 80%;
+    }
+}

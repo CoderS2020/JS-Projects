@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <script src="clock.js"></script>
+</head>
+
+<!-- As body is loaded updateClock() function starts loading and because of setInterval it runs after every 1 second -->
+<body onload="updateClock(); setInterval('updateClock()',1000)">
+    <!-- <body onload="updateClock(); setInterval('updateClock()', 1000)"> -->
+    <div id="clock"></div>
+</body>
+
+</html>
