@@ -1,2 +1,2 @@
 # JS-Projects
-Basic
+JS Projects using vanilla JS
